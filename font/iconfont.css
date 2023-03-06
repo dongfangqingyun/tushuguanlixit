@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1668324284404') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yonghu:before {
+  content: "\e633";
+}
+
+.icon-logo-wechat:before {
+  content: "\e619";
+}
+
+.icon-xhao:before {
+  content: "\e611";
+}
+
+.icon-weibo-copy:before {
+  content: "\e653";
+}
+
+.icon-yonghuziliao:before {
+  content: "\e91b";
+}
+
+.icon-biyanjing:before {
+  content: "\e901";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-qianjin-shi:before {
+  content: "\e654";
+}
+
+.icon-houtui-shi:before {
+  content: "\e656";
+}
+
+.icon-shuaxin:before {
+  content: "\eafd";
+}
+
+.icon-yanjing_xianshi:before {
+  content: "\eb46";
+}
+
+.icon-youjiantou:before {
+  content: "\e643";
+}
+
+.icon-mima:before {
+  content: "\e8b2";
+}
+
+.icon-youjiantou1:before {
+  content: "\e602";
+}
+

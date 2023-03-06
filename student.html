@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reader_chaxun.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <script src="./js/student.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        查询学生信息
+    </header>
+    <div class="search">
+        <span>学生姓名（学号）</span>
+        <input type="text" placeholder="请输入姓名或学号" id="xx" autofocus>
+        <button id="btn1">查询</button>
+        <button id="btn2">添加学生信息</button>
+        <button id="btn3">刷新</button>
+    </div>
+    <section class="test1 test">
+        <table class="table1">
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                    <th>学号</th>
+                    <th>院系</th>
+                    <th>专业</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody class="tbody1">
+            </tbody>
+        </table>
+    </section>
+    <form action="" name="form2">
+        <article class="insert">
+            <header class="h1">添加学生信息
+                <span class="iconfont icon-xhao" id="btn"></span>
+            </header>
+            <table>
+                <tr>
+                    <td>
+                        <span>姓名</span>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="请输入姓名">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>性别</span>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="请输入性别">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><span>年龄</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入年龄">
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>学号</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入学号">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>院系</span>
+                    </td>
+                    <td>
+                        <select name="院系" id="type">
+                            <option value="请选择">请选择</option>
+                            <option value="文学类">计算机科学</option>
+                            <option value="艺术类">艺术设计</option>
+                            <option value="小说类">商旅</option>
+                            <option value="旅游类">茶业</option>
+                            <option value="杂志类">学前教育</option>
+                            <option value="哲学类">高铁动车</option>
+                            <option value="军事类">电子商务</option>
+                            <option value="历史类">网络工程</option>
+                            <option value="宗教类">计算机软件工程</option>
+                            <option value="科学类">汉语言文学</option>
+                            <option value="天文类">生物理学</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>专业</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入专业名称">
+                    </td>
+                </tr>
+
+                <button class="tianjia">添加</button>
+            </table>
+        </article>
+    </form>
+    <form action="" name="form3">
+        <article class="insert1">
+            <header class="h2">修改学生信息
+                <span class="iconfont icon-xhao" id="btn_xiu"></span>
+            </header>
+            <table>
+                <tr>
+                    <td>
+                        <span>姓名</span>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="请输入姓名">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>性别</span>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="请输入性别">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><span>年龄</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入年龄">
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>学号</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入学号">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>院系</span>
+                    </td>
+                    <td>
+                        <select name="院系" id="type">
+                            <option value="请选择">请选择</option>
+                            <option value="文学类">计算机科学</option>
+                            <option value="艺术类">艺术设计</option>
+                            <option value="小说类">商旅</option>
+                            <option value="旅游类">茶业</option>
+                            <option value="杂志类">学前教育</option>
+                            <option value="哲学类">高铁动车</option>
+                            <option value="军事类">电子商务</option>
+                            <option value="历史类">网络工程</option>
+                            <option value="宗教类">计算机软件工程</option>
+                            <option value="科学类">汉语言文学</option>
+                            <option value="天文类">生物理学</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>专业</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入专业名称">
+                    </td>
+                </tr>
+
+                <button class="tianjia">添加</button>
+            </table>
+        </article>
+    </form>
+
+</body>
+
+</html>

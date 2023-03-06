@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+}
+
+/* .oA {
+    position: absolute;
+    top: 20px;
+    right: 160px;
+}
+
+.oA span {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+.oA span:hover {
+    color: red;
+} */
+
+.header {
+    height: 60px;
+    line-height: 60px;
+    background-color: #ccc;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header span:nth-child(2) {
+    cursor: pointer;
+    float: right;
+    padding-right: 30px;
+    font-size: 14px;
+}
+
+.header span:nth-child(2):hover {
+    color: red;
+}
+
+.header span:nth-child(2):hover a {
+    color: red;
+}
+
+.header span:nth-child(2) em {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.section {
+    margin: 50px auto;
+    width: 1300px;
+}
+
+.left_list {
+    width: 200px;
+    height: 87vh;
+    margin-left: 41px;
+    float: left;
+}
+
+.left_list ul li {
+    position: relative;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+    padding-left: 10px;
+    transition: all .5s;
+}
+
+.left_list ul li a {
+    transition: all .4s;
+}
+
+.left_list ul li:hover {
+    background-color: #ccc;
+}
+
+.left_list ul li:hover a {
+    padding-left: 15px;
+}
+
+.left_list ul li:hover::after {
+    transform: rotate(180deg);
+}
+
+.left_list ul li:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "iconfont";
+    display: inline-block;
+    content: '\e643';
+    font-size: 14px;
+    color: rgba(0, 0, 0, .8);
+    padding-right: 20px;
+    transition: all .5s;
+
+}
+
+.right_list {
+    float: right;
+    width: 1000px;
+    height: 100px;
+
+}
+
+.right_list ul li {
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 480px;
+    height: 140px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+
+.right_list ul li:hover {
+    transform: translateY(-10px) rotate(3deg);
+    box-shadow: 0 1px 1px 1px #ccc;
+    z-index: 999;
+
+}
+
+.right_list ul li a:hover {
+    color: red;
+}
+
+.right_list ul li .top {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    background-color: gainsboro;
+}
+
+.right_list ul li .bottom {
+    padding-left: 40px;
+    padding-top: 20px;
+}

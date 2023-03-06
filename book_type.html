@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reader_chaxun.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <script src="./js/book_type.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        图书类别
+    </header>
+    <div class="search">
+        <span>图书类别名称</span>
+        <input type="text" placeholder="请输入图书类别名称" id="xx" autofocus>
+        <button id="btn1">查询</button>
+        <button id="btn2">添加图书</button>
+        <button id="btn3">刷新</button>
+    </div>
+    <section class="test1 test">
+        <table class="table1">
+            <thead>
+                <tr>
+                    <th>图书编号</th>
+                    <th>图书名称</th>
+                    <th>图书类型</th>
+                    <th>作者名称</th>
+                    <th>出版社</th>
+                    <th>总数量</th>
+                    <th>价格</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody class="tbody1">
+            </tbody>
+        </table>
+    </section>
+    <form action="" name="form2">
+        <article class="insert">
+            <header class="h1">添加新图书
+                <span class="iconfont icon-xhao" id="btn"></span>
+            </header>
+            <table>
+                <tr>
+                    <td>
+                        <span>图书编号</span>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="请输入图书编号">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>图书名称</span>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="请输入图书名称">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>图书类型</span>
+                    </td>
+                    <td>
+                        <select name="图书类型" id="type">
+                            <option value="请选择">请选择</option>
+                            <option value="文学类">文学类</option>
+                            <option value="艺术类">艺术类</option>
+                            <option value="小说类">青春类</option>
+                            <option value="旅游类">旅游类</option>
+                            <option value="杂志类">杂志类</option>
+                            <option value="哲学类">哲学类</option>
+                            <option value="军事类">军事类</option>
+                            <option value="历史类">历史类</option>
+                            <option value="宗教类">宗教类</option>
+                            <option value="科学类">科学类</option>
+                            <option value="天文类">天文类</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>作者名称</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入作者名称">
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>出版社</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入出版社">
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>总数量</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入图书总数量">
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>价格</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入图书价格">
+                    </td>
+                </tr>
+                <button class="tianjia">添加</button>
+            </table>
+        </article>
+    </form>
+    <form action="" name="form3">
+        <article class="insert1">
+            <header class="h2">修改图书信息
+                <span class="iconfont icon-xhao" id="btn_xiu"></span>
+            </header>
+            <table>
+                <tr>
+                    <td>
+                        <span>图书编号</span>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="请输入图书编号">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>图书名称</span>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="请输入图书名称">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>图书类型</span>
+                    </td>
+                    <td>
+                        <select name="图书类型" id="type">
+                            <option value="请选择">请选择</option>
+                            <option value="文学类">文学类</option>
+                            <option value="艺术类">艺术类</option>
+                            <option value="小说类">青春类</option>
+                            <option value="旅游类">旅游类</option>
+                            <option value="杂志类">杂志类</option>
+                            <option value="哲学类">哲学类</option>
+                            <option value="军事类">军事类</option>
+                            <option value="历史类">历史类</option>
+                            <option value="宗教类">宗教类</option>
+                            <option value="科学类">科学类</option>
+                            <option value="天文类">天文类</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>作者名称</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入作者名称">
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>出版社</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入出版社">
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>总数量</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入图书总数量">
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>价格</span></td>
+                    <td>
+                        <input type="text" placeholder="请输入图书价格">
+                    </td>
+                </tr>
+                <button class="tianjia">修改</button>
+            </table>
+        </article>
+    </form>
+
+</body>
+
+</html>
